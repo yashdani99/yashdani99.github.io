@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>9 Pennies</title>
+<meta charset="utf-8">
+<link href="9pennies.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+	function init() {
+		response = prompt("Hello! This is the 9 penny game. You will be playing against me. There will be 9 pennies below. "+ 
+			"You and I will each take turns removing either 1, 2, or 3 pennies. Whoever has to take the last penny loses. "+ 
+			"Are you up for the challenge? (Enter Y or N)");
+		if (response == "Y" || response == "y") {
+			alert("Since your're player A, you go first. Start by clicking a button for how many pennies you want to remove.");			
+		} else {
+			alert("If you would like to exit, close the tab. If you want to play, refresh the page.");
+		}	
+	}
+</script>
+<script>
+	function remove1() {
+		if (stack == 9) {	
+			document.getElementById("penny9").style.display = "none";
+			alert("You have chosen to remove 1 penny. Click 'Continue'.");
+			stack = stack - 1;
+		} else if (stack == 1) {
+			lose();
+		} else if (stack == 5) {	
+			document.getElementById("penny5").style.display = "none";
+			alert("You have chosen to remove 1 penny. Click 'Continue'.");
+			stack = stack - 1;
+		} else {
+			alert("Invalid input. Don't cheat. Refresh page");
+		}
+	}
+	
+	function remove2() {
+		if (stack == 9) {
+			document.getElementById("penny9").style.display = "none";
+			document.getElementById("penny8").style.display = "none";
+			alert("You have chosen to remove 2 pennies. Click 'Continue'.");
+			stack = stack - 2;
+		} else if (stack == 1) {
+			lose();
+		} else if (stack == 5) {
+			document.getElementById("penny5").style.display = "none";
+			document.getElementById("penny4").style.display = "none";
+			alert("You have chosen to remove 2 pennies. Click 'Continue'.");
+			stack = stack - 2;	
+		} else {
+			alert("Invalid input. Don't cheat. Refresh page");
+		}
+	}
+	
+	function remove3() {
+		if (stack == 9) {	
+			document.getElementById("penny9").style.display = "none";
+			document.getElementById("penny8").style.display = "none";
+			document.getElementById("penny7").style.display = "none";
+			alert("You have chosen to remove 3 pennies. Click 'Continue'.");
+			stack = stack - 3;
+		} else if (stack == 1) {
+			lose();
+		} else if (stack == 5) {	
+			document.getElementById("penny5").style.display = "none";
+			document.getElementById("penny4").style.display = "none";
+			document.getElementById("penny3").style.display = "none";
+			alert("You have chosen to remove 3 pennies. Click 'Continue'.");
+			stack = stack - 3;
+		} else {
+			alert("Invalid input. Don't cheat. Refresh page");
+		}
+	}	
+	
+	function myremove() {
+		if (stack == 8) {
+			document.getElementById("penny8").style.display = "none";
+			document.getElementById("penny7").style.display = "none";
+			document.getElementById("penny6").style.display = "none";
+			alert("I will remove 3 pennies. Click a button to chose how many pennies you want to remove.");
+			stack = stack - 3;
+		} else if (stack == 7) {
+			document.getElementById("penny7").style.display = "none";
+			document.getElementById("penny6").style.display = "none";
+			alert("I will remove 2 pennies. Click a button to chose how many pennies you want to remove.");
+			stack = stack - 2;
+		} else if (stack == 6) {
+			document.getElementById("penny6").style.display = "none";
+			alert("I will remove 1 penny. Click a button to chose how many pennies you want to remove.");
+			stack = stack - 1;
+		} else if (stack == 4) {
+			document.getElementById("penny4").style.display = "none";
+			document.getElementById("penny3").style.display = "none";
+			document.getElementById("penny2").style.display = "none";
+			alert("I will remove 3 pennies.");
+			stack = stack - 3;
+		} else if (stack == 3) {
+			document.getElementById("penny3").style.display = "none";
+			document.getElementById("penny2").style.display = "none";
+			alert("I will remove 2 pennies.");
+			stack = stack - 2;
+		} else if (stack == 2) {
+			document.getElementById("penny2").style.display = "none";
+			alert("I will remove 1 penny.");
+			stack = stack - 1;		
+		} else {
+			alert("Invalid input. Don't cheat. Refresh page");
+		}	
+	}
+	
+	function quit() {
+		alert("You have chosen to quit. Refresh the page if you want to restart or close this tab to quit.");
+	}
+	
+	function lose() {
+		alert("There is only one penny left and it is your turn, therefore you lose.");
+		alert("If you would like to play again, refresh the browser. Close the current browser tab if you wich to quit.");
+	}
+</script>
+</head>
+<body>
+<div id="wrapper">
+	<main>
+		<h1>The 9 Pennies Game</h1>
+		<h2>Use the buttons below to play.</h2>
+		<div id="button1">
+			<button onclick="remove1()">1</button>
+		</div> 
+		<div id="button2">
+			<button onclick="remove2()">2</button>
+		</div> 
+		<div id="button3">
+			<button onclick="remove3()">3</button>
+		</div>
+		<div id="buttoncont">
+			<button onclick="myremove()">Continue</button>
+		</div> 		
+		<div id="buttonq">
+			<button onclick="quit()">Quit</button>
+		</div>
+		
+		<div id="pennies">
+			<img class="penny" id="penny1" src="penny1.png" alt="penny1">
+			<img class="penny" id="penny2" src="penny2.png" alt="penny2">
+			<img class="penny" id="penny3" src="penny3.png" alt="penny3">
+			<img class="penny" id="penny4" src="penny4.png" alt="penny4">
+			<img class="penny" id="penny5" src="penny5.png" alt="penny5">
+			<img class="penny" id="penny6" src="penny6.png" alt="penny6">
+			<img class="penny" id="penny7" src="penny7.png" alt="penny7">
+			<img class="penny" id="penny8" src="penny8.png" alt="penny8">
+			<img class="penny" id="penny9" src="penny9.png" alt="penny9">
+		</div>
+		
+	</main>
+</div>
+</body>
+</html>
+<script>
+	var stack = 9;
+	$(document).ready(function(){
+		init();
+	});
+</script>

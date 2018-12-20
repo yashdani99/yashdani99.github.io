@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Calculator</title>
+<meta charset="utf-8">
+<link href="calculator.css" rel="stylesheet">
+<script src="calculator.js"></script>
+<script src="jQ.js" type="text/javascript" defer="defer"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+<body>
+<div id="all">
+	<div id="screen">
+	<p>
+	Use the buttons below or the equivalent keys on your keyboard to perform calculations.<br>
+	Remember, you can use ** (2 asterisks) for exponentiation. <br>
+	For example, 2**3 will yield 8. <br>
+	(2 to the power of 3) <br>
+	Use number pad for optimal performance.
+	<p>
+	</div>
+
+	<table border="1">
+		<tr>
+			<td><button onclick="click1()">1</button></td>
+			<td><button onclick="click2()">2</button></td>
+			<td><button onclick="click3()">3</button></td>
+			<td><button onclick="click4()">4</button></td>
+			<td><button onclick="click5()">5</button></td>
+			<td><button onclick="click6()">6</button></td>
+			<td><button onclick="click7()">7</button></td>
+			<td><button onclick="click8()">8</button></td>
+			<td><button onclick="click9()">9</button></td>
+			<td><button onclick="clickBksp()">Bksp</button></td>
+		</tr>
+		<tr>
+			<td><button onclick="click0()">0</button></td>		
+			<td><button onclick="clickOpen()">[</button></td>
+			<td><button onclick="clickClose()">]</button></td>
+			<td><button onclick="clickPoint()">.</button></td>		
+			<td><button onclick="clickAdd()">+</button></td>
+			<td><button onclick="clickSubtract()">-</button></td>
+			<td><button onclick="clickMultiply()">*</button></td>	
+			<td><button onclick="clickDivide()">/</button></td>
+			<td><button onclick="clickClear()">c</button></td>
+			<td><button onclick="clickEnter()">Enter</button></td>
+		</tr>
+		</table>
+</div>
+</body>
+</html>

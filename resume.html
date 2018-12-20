@@ -1,0 +1,152 @@
+<!--Yash D, 1672267, 7/29/18
+	inline style used on h2 element in header element (line 21)
+	embedded style used on dt element in lines 81, 85, 89, 91, 94, 102, 105, and 110 
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Yash Dani::Resume</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+<link href="resume.css" rel="stylesheet">
+<style>
+	dt { font-weight: bold }
+	
+</style>
+</head>
+<body class="resume">
+	<!-- <header id="header_resume"> 
+		<h1 id="h1resume">Yash Dani</h1>
+		<h2 style="text-align:left;">yadani@ucdavis.edu | www.linkedin.com/in/yash-dani</h2>
+	</header>-->
+	<main>	
+		<nav class="navlist">
+			<ul>
+				<li> <a href="index.html">Home</a> </li>
+				<!-- <li> <a target="_blank" href="resume.pdf" download>Resume</a> </li> -->
+				<li class="dropdown"> 
+					<a href="resume.html" class="dropbtn">Resume</a>
+						<div class="dropdown-content">
+							<a target="_blank" href="resume.pdf" download>Download</a>
+						</div>	
+				</li>
+				
+				<li class="dropdown"> 
+					<a href="javascript:void(0)" class="dropbtn">Projects</a>
+						<div class="dropdown-content">
+							<a target="_blank" href="9pennies/9pennies.html">9 Pennies</a>
+							<a target="_blank" href="calculator/calculator.html">Calculator</a>
+						</div>	
+				</li>
+			<ul>
+		
+			<a href="mailto:yadani@ucdavis.edu">
+				<img class="media" id="mail" border="0" alt="Email Me" src="mail.png">
+			</a>
+			
+			<a href="https://www.linkedin.com/in/yash-dani/" target="_blank">
+				<img class="media" id ="linkedin" border="0" alt="LinkedIn" src="linkedin.jpg">
+			</a>
+		</nav>
+		<div>	<!--Creates first panel on the resume page containing the education and skills--> 
+			<h2><span id="eduHead">Education</span></h2>
+			<h2><span id="skillsHead">Skills</span></h2>
+			<p>	
+				<ul id="eduContent">
+					<dt>University of California, Davis ~ UCD (Davis, CA)</dt>
+						<dd><li>Bachelor of Science in Computer Science</li></dd> 
+						<dd><li>Expected June 2021</li></dd>
+					<dt>Relevant Courses</dt> 
+						<dd><li>Data Structures</li></dd>
+						<dd><li>Software and Object-Oriented Programming</li></dd> 
+						<dd><li>Network Security Fundamentals</li></dd>
+						<dd><li>Introduction to Web Development</li></dd>
+				</ul>
+				<table border="1" id="skillsContent">  <!--Creates the table that is used to display the skills-->
+					<tr>
+						<th>Coding Languages</th>
+						<th>Technologies</th>
+					</tr>
+						<td>Python</td>
+						<td>PuTTY </td> 
+					</tr>
+					<tr>
+						<td>C</td> 
+						<td>Firebase</td> 
+					</tr>
+					<tr>
+						<td>C++</td>
+						<td>Linux/Unix OS</td>
+					</tr>
+					<tr>
+						<td>HTML</td>
+						<td>jQuery</td>
+					</tr>
+					<tr>
+						<td>CSS</td>
+						<td>WinSCP</td>
+					</tr>
+					<tr>
+						<td>JavaScript</td>
+						<td>Android Studios</td>
+					</tr>
+				</table>
+			</p>
+		</div>
+		
+		<div class="panel"> <!--panels refer to any section after the first (intro section) that contain significant information-->	
+			<h2><span id="introline">Projects</span></h2> 
+			<ul> <!--Creates the projects section on the resume page as a description list-->
+				<dt>Help the Homies (HTML5, JavaScript, Bootstrap, Google Maps API, Firebase)</dt> 
+					<dd><li>Created a web app that allows members of a community to help the local homeless population</li></dd>
+					<dd><li>Applied geolocation and Google Maps to identify homeless people who need resources</li></dd>
+					<dd><li>Used Firebase’s real-time database to store and maintain the latitude and longitude coordinates</li></dd> 
+					<br>
+				<dt>Postfix Calculator (PuTTY, C++)</dt> 
+					<dd><li> Designed a calculator that computes postfix expressions (mathematical expressions without parenthesis)</li></dd> 
+					<dd><li> Built the calculator using a stack that pushes and pops numbers when needed for operations</li></dd> 
+					<dd><li> Implemented a stack class using a vector with essential member functions like size, pop, and push</li></dd> 
+					<br>
+				<dt>Weather Anywhere (HTML5, CSS3, JavaScript, Java, OpenWeatherMap API, Android Studio)</dt> 
+					<dd><li> Built an android app using a WebView that provides the weather at any city in the world</li></dd>
+					<dd><li> Employed JavaScript to send inputted city to OpenWeatherMap’s API and to extract appropriate weather information</li></dd>  
+					<dd><li> Constructed a class of JavaScript interface functions in the Java code to allow the JavaScript code to run</li></dd>    
+					<br>  
+				<dt>Calculator (HTML5, CSS3, JavaScript, jQuery)</dt> 
+					<dd><li> Fabricated a calculator that can be used with buttons on screen or keys from a keyboard</li></dd> 
+					<dd><li> Designed using a paragraph element and an HTML5 table of buttons</li></dd> 
+					<dd><li> Implemented onclick events for buttons on-screen and key-up jQuery events for keyboard keys</li></dd>         
+					<br>
+				<dt>Restaurant (PuTTY, C++)</dt>
+					<dd><li> Developed a program that seated people at a restaurant using object-oriented programming</li></dd>
+					<dd><li> Created 9 table objects that could hold a different amount of people, with variables for the number of people at a table and the maximum number the table could hold</li></dd> 
+					</dd>
+			</ul>		
+		</div>
+		<div class="panel">	
+			<h2><span id="introline">Work Experience</span></h2>
+			<ul> <!--Creates the work experience panel on the resume page as an unordered list tabulated list a description list-->
+				<dt>IT and Web Assistant (October 2018-Present)</dt> 
+					<dd><li> Design, develop, and maintain the pages of Dr. Joseph’s website with new material, research, or work using HTML5, CSS3, JavaScript, and jQuery</li></dd> 
+					<dd><li> Perform syncing between multiple laptops, desktops, and hard drives using SynchBackFree</li></dd>
+					<dd><li> Troubleshoot any software or hardware related problems with any lab equipment</li></dd><br>
+				<dt>Computer Science Tutor (January 2018-Present)</dt> 
+					<dd><li>Aid current students in understanding fundamental concepts of Python and 
+					C that are both relevant to their coursework and important for developing proficiency in any coding language.</li></dd><br>
+				<dt>Quidditch Referee (October 2017-November 2017)</dt> 
+					<dd><li>Observed players while they played Quidditch to ensure that they played fair 
+					and obeyed all regulations.</li></dd>
+					<dd><li>Processed the gameplay to ensure fairness by recognizing small rule 
+					violations while maintaining a connection to all other aspects of the game.</li></dd><br>
+				<dt>Lennar Homes Intern (June 2016-July 2016)</dt> 
+					<dd><li>Built houses from the ground up that are currently occupied by homeowners.</li></dd>
+					<dd><li>Developed communication skills by working with other interns cooperatively
+					while working on the roofs of houses.</li></dd> 
+			</ul>
+		</div>	
+	</main>
+</div>
+</body>
+</html>

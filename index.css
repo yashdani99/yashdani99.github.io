@@ -1,0 +1,142 @@
+.index { background-color: #333;
+         background-image: url(background.jpg);
+		 background-repeat: no-repeat; 
+}
+ 
+.resume { background-color: #333;
+          background-image: url(background2.jpg);
+		  background-repeat: no-repeat;
+		  background-attachment: fixed;
+		  font-family: Arial;
+}
+
+.navlist ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navlist li {
+  float: left;
+  font-family: 'Patua One';
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: #EAB281;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: black;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #EAB281}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.media { float: right; }			
+
+#linkedin { height: 45px;
+			width: 70px;
+			margin-top: 3px;
+}
+
+#mail { height: 47px;
+		width: 55px;
+		margin-bottom: 2px;
+		margin-right: 10px; 
+}
+
+#profile { border-radius: 75px; 
+		   margin-top: 25px;
+		   border: 2px solid #333;
+		   box-shadow: 2px 2px 2px #333;
+}	
+
+#quote p { font-size: 25px;
+		   float: left;
+		   clear: left;
+		   font-family: 'Patua One', cursive;
+		   color: #EAB281;
+}
+
+#name p { font-size: 55px; 
+		  float: left; 
+		  clear: left;
+		  font-family: 'Patua One';
+		  color: #EAB281;
+}
+
+#panel1 { float: right; 
+		  width: 530px;
+		  margin-right: 275px; 
+}
+
+#panel1 p { font-size: 24px; 
+			color: black;
+			font-family: Arial;
+}
+
+#introlineindex { font-size: 30px; 
+			 font-family: 'Patua One';
+}
+
+#eduHead { float: left; }
+
+#skillsHead { float: right; 
+			  margin-right: 800px; 
+}
+
+#eduContent { float: left;
+			  clear: left;
+}
+
+#skillsContent { float: right;
+				 clear: right;
+				 margin-right: 607px;
+				 margin-top: 13px; 
+}
+
+.panel {clear: both; }
+
+table { border-spacing: 0; 
+		border: 3px solid black;
+}
+
+tr:nth-of-type(even) { background-color: #FFE09D; /*formats the every even row of the table*/
+					   color: black; 
+}
+
+
+
+
+
