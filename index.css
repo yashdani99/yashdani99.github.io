@@ -1,12 +1,12 @@
 .index { background-color: #333;
-         background-image: url(background.jpg);
-		 background-repeat: no-repeat; 
+         background-image: url(self.png);
+		     background-repeat: repeat;
+         background-size: auto;
 }
- 
+
 .resume { background-color: #333;
-          background-image: url(background2.jpg);
-		  background-repeat: no-repeat;
-		  background-attachment: fixed;
+          background-image: url(self.png);
+		  background-repeat: repeat;
 		  font-family: Arial;
 }
 
@@ -25,7 +25,7 @@
 
 li a, .dropbtn {
   display: inline-block;
-  color: #EAB281;
+  color: #EFE4B0;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -57,86 +57,99 @@ li.dropdown {
   text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #EAB281}
+.dropdown-content a:hover {background-color: #EFE4B0}
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
-.media { float: right; }			
+.media { float: right; }
 
-#linkedin { height: 45px;
-			width: 70px;
-			margin-top: 3px;
+#linkedin { height: 5%;
+			      width: 6%;
+			      margin-top: 3px;
 }
 
-#mail { height: 47px;
-		width: 55px;
-		margin-bottom: 2px;
-		margin-right: 10px; 
+#mail { height: 4%;
+		    width: 4%;
+		    margin-bottom: 2px;
+		    margin-right: 10px;
 }
 
-#profile { border-radius: 75px; 
-		   margin-top: 25px;
-		   border: 2px solid #333;
-		   box-shadow: 2px 2px 2px #333;
-}	
+#profile { border-radius: 70%;
+		       margin-top: 25px;
+		       border: 2px solid #333;
+		       box-shadow: 2px 2px 2px #333;
+           display: none;
+}
 
 #quote p { font-size: 25px;
-		   float: left;
-		   clear: left;
-		   font-family: 'Patua One', cursive;
-		   color: #EAB281;
+		       float: left;
+		       clear: left;
+		       font-family: 'Patua One', cursive;
+		       color: black;
 }
 
-#name p { font-size: 55px; 
-		  float: left; 
-		  clear: left;
-		  font-family: 'Patua One';
-		  color: #EAB281;
+#quote { display: none; }
+
+#name p { font-size: 55px;
+		      float: left;
+		      clear: left;
+		      font-family: 'Patua One';
+		      color: black;
 }
 
-#panel1 { float: right; 
-		  width: 530px;
-		  margin-right: 275px; 
+#name { display: none; }
+
+#panel1 { float: right;
+		      width: 535px;
+		      margin-right: 275px;
 }
 
-#panel1 p { font-size: 24px; 
-			color: black;
-			font-family: Arial;
+#panel1 p { font-size: 24px;
+			      color: black;
+			      font-family: Arial;
 }
 
-#introlineindex { font-size: 30px; 
-			 font-family: 'Patua One';
+#introlineindex { font-size: 30px;
+			            font-family: 'Patua One';
 }
+
+#next { display: none;
+        border: 3px solid black;
+        width: 75px;
+        height: 40px;
+        font-family: 'Patua One';
+        font-size: 20pt;
+        cursor: pointer;
+        background-color: transparent;
+        box-shadow: 2px 2px 2px black;
+}
+
+#next:hover { background-color: #EFE4B0; }
 
 #eduHead { float: left; }
 
-#skillsHead { float: right; 
-			  margin-right: 800px; 
+#skillsHead { float: right;
+			        margin-right: 800px;
 }
 
 #eduContent { float: left;
-			  clear: left;
+			        clear: left;
 }
 
 #skillsContent { float: right;
-				 clear: right;
-				 margin-right: 607px;
-				 margin-top: 13px; 
+				         clear: right;
+				         margin-right: 607px;
+				         margin-top: 13px;
 }
 
 .panel {clear: both; }
 
-table { border-spacing: 0; 
-		border: 3px solid black;
+table { border-spacing: 0;
+		    border: 3px solid black;
 }
 
 tr:nth-of-type(even) { background-color: #FFE09D;
-					   color: black; 
+					             color: black;
 }
-
-
-
-
-

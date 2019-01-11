@@ -5,6 +5,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="index.css" rel="stylesheet">
+<script src="index.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
 </head>
@@ -13,26 +15,26 @@
 		<nav class="navlist">
 		<ul>
 			<li> <a href="index.html">Home</a> </li>
-			<li class="dropdown"> 
+			<li class="dropdown">
 				<a href="resume.html" class="dropbtn">Resume</a>
 					<div class="dropdown-content">
-						<a target="_blank" href="Resume.pdf" download>Download</a>
-					</div>	
+						<a target="_blank" href="resume.pdf" download>Download</a>
+					</div>
 			</li>
-			
-			<li class="dropdown"> 
+
+			<li class="dropdown">
 				<a href="javascript:void(0)" class="dropbtn">Projects</a>
 					<div class="dropdown-content">
-						<a target="_blank" href="https://github.com/yashdani99/9Pennies">9 Pennies</a>
-						<a target="_blank" href="https://github.com/yashdani99/Calculator">Calculator</a>
-					</div>	
+						<a target="_blank" href="9pennies/9pennies.html">9 Pennies</a>
+						<a target="_blank" href="calculator/calculator.html">Calculator</a>
+					</div>
 			</li>
 		<ul>
-		
-		<a href="mailto:yadani@ucdavis.edu">
+
+		<a href="mailto:yadani@ucdavis.edu" target="_blank">
 			<img class="media" id="mail" border="0" alt="Email Me" src="mail.png">
 		</a>
-		
+
 		<a href="https://www.linkedin.com/in/yash-dani/" target="_blank">
 			<img class="media" id ="linkedin" border="0" alt="LinkedIn" src="linkedin.jpg">
 		</a>
@@ -41,20 +43,20 @@
 	<main>
 		<div id="indexleft">
 			<img src="profile.jpg" alt="Yash Dani" id="profile" width="175" height="250">
-			
-			
-			<div id="panel1"> 	
+
+
+			<div id="panel1">
 					<h2><span id="introlineindex">Welcome</span></h2>
-					<p> Hello, I am student at UC Davis pursuing a bachelors degree in 
-					computer science. I am currently a Web and IT assistant for an anthropology lab as well
-					as a tutor for other UC Davis students learning Python, C, and C++. <br> <br>
-				</p>
-			</div> 	
+					<p id="introtext"></p>
+					<p id="introtext2"></p>
+					<br> <br> <br>
+					<button id="next" onclick="text2Prep();">Next</button>
+			</div>
 
 			<div id="name">
 				<p>Yash Dani</p>
 			</div>
-		
+
 			<div id="quote">
 				<p>Strive to Optimize </p>
 			</div>
