@@ -65,13 +65,13 @@ li.dropdown {
 
 .media { float: right; }
 
-#linkedin { height: 5%;
-			      width: 6%;
+#linkedin { height: 45px;
+			      width: 70px;
 			      margin-top: 3px;
 }
 
-#mail { height: 4%;
-		    width: 4%;
+#mail { height: 47px;
+		    width: 55px;
 		    margin-bottom: 2px;
 		    margin-right: 10px;
 }
