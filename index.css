@@ -1,25 +1,20 @@
-.index { background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);}
-
-.resume { background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
-          font-family: Arial;
-}
+.index { background-color: #222629; }
 
 .navlist ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #4f4b4f;
+  font-family: sans-serif;
+  font-weight: bold;
 }
 
-.navlist li {
-  float: left;
-  font-family: 'Patua One';
-}
+.navlist li { float: left; }
 
 li a, .dropbtn {
   display: inline-block;
-  color: #fcff9e;
+  color: #86c232;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -27,7 +22,8 @@ li a, .dropbtn {
 
 
 li a:hover, .dropdown:hover .dropbtn {
-  background-color: black;
+  background-color: #6b6e70;
+  color: #86c232;
 }
 
 li.dropdown {
@@ -37,21 +33,21 @@ li.dropdown {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: #4f4b4f;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
 .dropdown-content a {
-  color: black;
+  color: #86c232;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
   text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #fcff9e}
+.dropdown-content a:hover { background-color: #6b6e70 }
 
 .dropdown:hover .dropdown-content {
   display: block;
@@ -70,30 +66,36 @@ li.dropdown {
 		    margin-right: 10px;
 }
 
-#profile { border-radius: 70%;
-		       margin-top: 25px;
-		       border: 2px solid #333;
-		       box-shadow: 2px 2px 2px #333;
-           display: none;
+#profile { border-radius: 50%;
+           transform: rotate(270deg);
+           margin-top: 25px;
+		       border: 2px solid #6b6e70;
+           margin-left: 50px;
 }
 
-#quote p { font-size: 25px;
+#quote p { font-size: 27px;
 		       float: left;
 		       clear: left;
-		       font-family: 'Patua One', cursive;
-		       color: black;
+		       font-family: sans-serif;
+		       color: #6b6e70;
+           font-weight: bold;
 }
 
-#quote { display: none; }
+#quote { display: none;
+        margin-left: 60px;
+}
 
-#name p { font-size: 55px;
+#name p { font-size: 63px;
 		      float: left;
 		      clear: left;
-		      font-family: 'Patua One';
-		      color: black;
+		      font-family: sans-serif;
+		      color: #86c232;
+          font-weight: bold;
 }
 
-#name { display: none; }
+#name { display: none;
+        margin-left: 50px;
+}
 
 #panel1 { float: right;
 		      width: 535px;
@@ -101,15 +103,17 @@ li.dropdown {
 }
 
 #panel1 p { font-size: 24px;
-			      color: black;
+			      color: #6b6e70;
 			      font-family: Arial;
 }
 
-#introlineindex { font-size: 30px;
-			            font-family: 'Patua One';
+#introlineindex { font-size: 35px;
+                  font-family: sans-serif;
+                  color: #86c232;
+                  font-weight: bold;
 }
 
-#eduHead { float: left; }
+/*#eduHead { float: left; }
 
 #skillsHead { float: right;
 			        margin-right: 800px;
@@ -128,7 +132,7 @@ li.dropdown {
 .panel {clear: both; }
 
 table { border-spacing: 0;
-		    border: 3px solid black;
+		    border: 3px solid #ac3b61;
 }
 
 tr:nth-of-type(even) { background-color: #FFE09D;
