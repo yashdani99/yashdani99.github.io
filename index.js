@@ -1,11 +1,11 @@
 var i = 0;
 var txt = "Hello, I am a student at UC Davis majoring in Compuer Science and minoring in Technology Managment." +
-          " I am currently a Web and IT Assistant for an anthropology lab and a tutor for other students learning" +
+          " I am currently a Web Developer and IT Support for an anthropology lab and a tutor for other students learning" +
           " Python, C, or C++."
 
 var txt2 = "I am passionate about using technology to provide others with the resources they need to leave a positive " +
-           "impact on the world. I love to playing sports, solving riddles, and spending time with friends. If you have " +
-           "any questions or just want grab a coffee, send me an email at yadani@ucdavis.edu."
+           "impact on the world. I love playing sports, solving riddles, and spending time with friends. If you have " +
+           "any questions send me an email at yadani@ucdavis.edu."
 
 var speed = 20;
 
