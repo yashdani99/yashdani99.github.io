@@ -1,11 +1,7 @@
 var i = 0;
 var txt = "Hello, I am a student at UC Davis majoring in Compuer Science and minoring in Technology Managment." +
           " I am currently a Web Developer and IT Support for an anthropology lab and a tutor for other students learning" +
-          " Python, C, or C++."
-
-var txt2 = "I am passionate about using technology to provide others with the resources they need to leave a positive " +
-           "impact on the world. I love playing sports, solving riddles, and spending time with friends. If you have " +
-           "any questions send me an email at yadani@ucdavis.edu."
+          " Python, C, or C++.  If you have any questions send me an email at yadani@ucdavis.edu. "
 
 var speed = 20;
 
@@ -31,19 +27,4 @@ window.onload = function textIn() {
 
 function nextAppear() {
   document.getElementById("next").style.display = "block";
-}
-
-function text2Prep() {
-  document.getElementById("next").style.display = "none";
-  i = 0;
-  document.getElementById("introtext").style.display = "none";
-  text2In();
-}
-
-function text2In() {
-  if (i < txt2.length) {
-    document.getElementById("introtext2").innerHTML += txt2.charAt(i);
-    i++;
-    setTimeout(text2In, speed);
-  }
 }

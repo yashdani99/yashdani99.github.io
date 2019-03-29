@@ -1,13 +1,7 @@
-.index { background-color: #333;
-         background-image: url(self.png);
-		     background-repeat: repeat;
-         background-size: auto;
-}
+.index { background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);}
 
-.resume { background-color: #333;
-          background-image: url(self.png);
-		  background-repeat: repeat;
-		  font-family: Arial;
+.resume { background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
+          font-family: Arial;
 }
 
 .navlist ul {
@@ -25,7 +19,7 @@
 
 li a, .dropbtn {
   display: inline-block;
-  color: #EFE4B0;
+  color: #fcff9e;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -57,7 +51,7 @@ li.dropdown {
   text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #EFE4B0}
+.dropdown-content a:hover {background-color: #fcff9e}
 
 .dropdown:hover .dropdown-content {
   display: block;
@@ -114,19 +108,6 @@ li.dropdown {
 #introlineindex { font-size: 30px;
 			            font-family: 'Patua One';
 }
-
-#next { display: none;
-        border: 3px solid black;
-        width: 75px;
-        height: 40px;
-        font-family: 'Patua One';
-        font-size: 20pt;
-        cursor: pointer;
-        background-color: transparent;
-        box-shadow: 2px 2px 2px black;
-}
-
-#next:hover { background-color: #EFE4B0; }
 
 #eduHead { float: left; }
 
