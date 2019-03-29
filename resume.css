@@ -111,7 +111,7 @@ li.dropdown {
 #eduHead { float: left; }
 
 #skillsHead { float: right;
-			        margin-right: 800px;
+			        margin-right: 750px;
 }
 
 #eduContent { float: left;
@@ -120,9 +120,11 @@ li.dropdown {
 
 #skillsContent { float: right;
 				         clear: right;
-				         margin-right: 607px;
+				         margin-right: 580px;
 				         margin-top: 13px;
 }
+
+#contentContainer { margin-right: 580px; }
 
 .panel { clear: both; }
 
