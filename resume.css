@@ -70,11 +70,13 @@ li.dropdown {
 
 #eduHead { float: left;
            color: #4f4b4f;
+           font-size: 36px;
 }
 
 #skillsHead { float: right;
-			        margin-right: 650px;
+			        margin-right: 620px;
               color: #4f4b4f;
+              font-size: 36px;
 }
 
 #eduContent { float: left;
@@ -86,7 +88,7 @@ li.dropdown {
 #skillsContent { float: right;
 				         clear: right;
 				         margin-right: 200px;
-				         margin-top: 13px;
+				         margin-top: 25px;
                  color: #61892f;
                  font-size: 24px;
 }
