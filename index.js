@@ -19,12 +19,5 @@ window.onload = function textIn() {
     i++;
     setTimeout(textIn, speed);
   }
-  if (i >= txt.length) {
-    setTimeout(nextAppear(), 5000);
-  }
   profileIn();
-}
-
-function nextAppear() {
-  document.getElementById("next").style.display = "block";
 }

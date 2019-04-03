@@ -1,11 +1,13 @@
-.index { background-color: #222629; }
+body { margin: 0px; }
+
+.index { background-color: #C7C7D3; }
 
 .navlist ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #4f4b4f;
+  background-color: #2B262A;
   font-family: sans-serif;
   font-weight: bold;
 }
@@ -14,7 +16,7 @@
 
 li a, .dropbtn {
   display: inline-block;
-  color: #86c232;
+  color: #C7C7D3;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -22,8 +24,8 @@ li a, .dropbtn {
 
 
 li a:hover, .dropdown:hover .dropbtn {
-  background-color: #6b6e70;
-  color: #86c232;
+  background-color: #2D2B2E;
+  color: #C7C7D3;
 }
 
 li.dropdown {
@@ -33,21 +35,21 @@ li.dropdown {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #4f4b4f;
+  background-color: #2B262A;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
 .dropdown-content a {
-  color: #86c232;
+  color: #C7C7D3;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
   text-align: left;
 }
 
-.dropdown-content a:hover { background-color: #6b6e70 }
+.dropdown-content a:hover { background-color: #2D2B2E }
 
 .dropdown:hover .dropdown-content {
   display: block;
@@ -77,7 +79,7 @@ li.dropdown {
 		       float: left;
 		       clear: left;
 		       font-family: sans-serif;
-		       color: #6b6e70;
+		       color: #2B262A;
            font-weight: bold;
 }
 
@@ -89,7 +91,7 @@ li.dropdown {
 		      float: left;
 		      clear: left;
 		      font-family: sans-serif;
-		      color: #86c232;
+		      color: #2B262A;
           font-weight: bold;
 }
 
@@ -103,13 +105,13 @@ li.dropdown {
 }
 
 #panel1 p { font-size: 24px;
-			      color: #6b6e70;
+			      color: #2B262A;
 			      font-family: Arial;
 }
 
 #introlineindex { font-size: 35px;
                   font-family: sans-serif;
-                  color: #86c232;
+                  color: #2B262A;
                   font-weight: bold;
 }
 
