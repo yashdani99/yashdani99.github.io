@@ -5,58 +5,111 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="index.css" rel="stylesheet">
-<script src="index.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="index.js"></script>
+<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
 </head>
 <body class="index">
-	<header>
-		<nav class="navlist">
-		<ul>
-			<li> <a href="index.html">Home</a> </li>
-			<li class="dropdown">
-				<a href="resume.html" class="dropbtn">Resume</a>
-					<div class="dropdown-content">
-						<a target="_blank" href="Resume.pdf" download>Download</a>
-					</div>
-			</li>
-
-			<li class="dropdown">
-				<a href="javascript:void(0)" class="dropbtn">Projects</a>
-					<div class="dropdown-content">
-						<a target="_blank" href="9pennies/9pennies.html">9 Pennies</a>
-						<a target="_blank" href="calculator/calculator.html">Calculator</a>
-					</div>
-			</li>
-		<ul>
-
-		<a href="mailto:yadani@ucdavis.edu" target="_blank">
-			<img class="media" id="mail" border="0" alt="Email Me" src="mail.png">
-		</a>
-
-		<a href="https://www.linkedin.com/in/yash-dani/" target="_blank">
-			<img class="media" id ="linkedin" border="0" alt="LinkedIn" src="linkedin.jpg">
-		</a>
-		</nav>
-	</header>
-	<main>
-		<div id="indexleft">
-			<img src="profile2.jpg" alt="Yash Dani" id="profile" width="250px">
-
-
-			<div id="panel1">
-					<h2><span id="introlineindex">Welcome</span></h2>
-					<p id="introtext"></p>
-					<p id="introtext2"></p>
+		<div id="first">
+			<div id="firstLeft">
+					<img src="profile.png" alt="A Picture of Me" id="profile">
 			</div>
-
-			<div id="name">
-				<p>Yash Dani</p>
-			</div>
-
-			<div id="quote">
-				<p>Strive to Optimize </p>
+			<div id="firstRight">
+				<div id="panelFirst">
+					<h1 id="name">Yash Dani</h1>
+					<h2 id="quote">Strive to Optimize</h2>
+				</div>
 			</div>
 		</div>
-	</main>
+
+
+
+		<!--   OLD STUFF
+
+		<div id="second">
+		<h1 id="secondTitle">Some stuff I've made</h1>
+
+			<div class="panel">
+				<div class="panelPicOdd">
+					<img src="helpTheHomies.png" id="homiesPic" alt="A Picture of the Project's Interface" >
+				</div>
+				<div class="panelContentOdd">
+					<div class="panelContainer">
+						<h1>Help the Homies</h1>
+						<p>I collaborated with friends at Cal Hacks 5.0 to create a web app that
+							 aimed to connect local communities to their homeless population. I
+							 worked on a backend sub-team	in which we used Firebase to store
+							 geographic coordinates of the user's location to be accesed by the
+							 Google Map API to place markers on the map interface.
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="panel">
+				<div class="panelPicEven" id="appPicsDiv">
+					<img src="weatherAnywhereDavis.jpg" id="appPicLeft" alt="A Picture of the app Interface">
+					<img src="weatherAnywhereGen.jpg" id="appPicMid" alt="A Picture of the app Interface">
+					<img src="weatherAnywhereSac.jpg" id="appPicRight" alt="A Picture of the app Interface">
+				</div>
+				<div class="panelContentEven">
+					<div class="panelContainer">
+						<h1>Weather Anywhere</h1>
+						<p>I built an android weather app that tells the weather at any city
+							 in the world. I created the app using a webview and Open Weather
+							 Map API to access real time weather data. The app uses HTML, CSS,
+							 and JavaScript
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="panel">
+				<div class="panelPicOdd">
+					<img src="calculator2.png" id="calculatorPic" alt="A Picture of the Calculators's Interface" >
+				</div>
+				<div class="panelContentOdd">
+					<div class="panelContainer">
+						<h1>Calculator</h1>
+						<p>I fabricated a web app calculator that can be used using the buttons
+							 on screen or the buttons on the computer's keyboard. The web app uses
+							 HTML, CSS, JavaScript, and jQuery.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="third">
+			<h1 id="thirdTitle">Some things I enjoy</h1>
+
+			<div id="likes">
+				<div id="topRow">
+				  <div id="like1pic">
+	1111
+					</div>
+					<div id="like2pic">
+	2222
+					</div>
+	      </div>
+				<div id="botRow">
+					<div id="like1content">
+	3333
+					</div>
+					<div id="like2content">
+	4444
+					</div>
+			  </div>
+			</div>
+
+
+
+
+
+		</div>
+
+
+
 </body>
 </html>
