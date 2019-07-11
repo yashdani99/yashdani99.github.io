@@ -7,7 +7,7 @@
   }
 
   #first {
-    background-color: #E6E1FC;
+    background-color: #eae9e6 /*#E6E1FC*/;
   }
 
   #firstLeft {
@@ -70,7 +70,7 @@
   }
 
   #first {
-    background-color: #E6E1FC;
+    background-color: #eae9e6 /*#E6E1FC*/;
   }
 
   #firstLeft {
@@ -125,7 +125,7 @@
   }
 
   #first {
-    background-color: #E6E1FC;
+    background-color: #eae9e6 /*#E6E1FC*/;
   }
 
   #firstLeft {
@@ -224,7 +224,7 @@
   }
 
   #first {
-    background-color: #E6E1FC;
+    background-color: #eae9e6 /*#E6E1FC*/;
   }
 
   #firstLeft {
@@ -324,7 +324,7 @@
   }
 
   #first {
-    background-color: #E6E1FC;
+    background-color: #eae9e6 /*#E6E1FC*/;
   }
 
   #firstLeft {
@@ -414,153 +414,3 @@
   }
 
 }
-
-
-
-
-
-
-
-
-
-
-/* OLD STUFF */
-
-/* #second {
-  background-color: white;
-  height: 200%;
-}
-
-#secondTitle {
-  font-family: sans-serif;
-  font-size: 75px;
-  text-align: center;
-}
-
-.panel {
-  height: 30%;
-  /* border: 1px solid black; */
-}
-
-/* .panelPicOdd {
-  float: left;
-  width: 50%;
-}
-
-#homiesPic {
-  width: 90%;
-  padding: 5%;
-}
-
-.panelContentOdd {
-  float: right;
-  width: 50%;
-  font-family: sans-serif;
-  text-align: left;
-}
-
-.panelContainer {
-  width: 90%;
-  margin-top: 5%;
-  margin-left: 5%;
-}
-
-.panelContainer p {
-  font-size: 24px;
-}
-
-.panelContainer h1 {
-  font-size: 40px;
-}
-
-.panelPicEven {
-  float: right;
-  width: 50%;
-}
-
-.panelContentEven {
-  float: left;
-  width: 50%;
-  font-family: sans-serif;
-  text-align: left;
-}
-
-#appPicLeft {
-  width: 25%;
-  padding-left: 3%;
-}
-
-#appPicMid {
-  width: 25%;
-  padding-left: 7%;
-  padding-right: 7%;
-}
-
-#appPicRight {
-  width: 25%;
-}
-
-#appPicsDiv {
-  margin-top: 10px;
-}
-
-#calculatorPic {
-  width: 90%;
-  height: 50%
-  padding: 5%;
-  margin-left: 5%;
-
-}
-
-#third {
-    background-color: white;
-    height: 100%;
-}
-
-#thirdTitle {
-  font-family: sans-serif;
-  font-size: 75px;
-  text-align: center;
-}
-
-#likes {
-  display: flex;
-  flex-direction: column;
-  border: 2px solid black;
-  /* align-items: stretch; */
-  height: 200px;
-
-}
-
-#topRow {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-#botRow {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-#like1pic {
-display: flex;
-align-items: stretch;
-}
-
-#like2pic {
-
-}
-
-#like1content {
-  float: left;
-  border: 2px solid black;
-
-}
-
-#like2content {
-  float: right;
-  border: 2px solid black;
-
-}  */
