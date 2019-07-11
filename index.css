@@ -2,7 +2,7 @@
 @media only screen and (max-width: 600px) {
   body { margin: 0px;}
 
-  #first, html, main, body {
+  #first, #second, html, main, body {
     height: 100%;
   }
 
@@ -51,7 +51,15 @@
     text-align: center;
     display: none;
   }
+
+  .projects {
+    margin-left: 12.5%;
+    padding-top: 40px;
+    width: 75%;
+  }
+
 }
+
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
@@ -66,9 +74,6 @@
   }
 
   #firstLeft {
-    /* width: 50%; */
-    /* float: left; */
-    /* margin: auto; */
     padding-top: 20px;
   }
 
@@ -81,16 +86,9 @@
     border-radius: 50%;
   }
 
-  #firstRight {
-    /* float: right; */
-    /* width: 50%; */
-  }
-
   #panelFirst {
-    /* margin-top: 180px; */
     color: #2B262A;
     height: 100%;
-    /* margin-left: 25px; */
   }
 
   #panelFirst h1 {
@@ -106,6 +104,16 @@
     text-align: center;
     display: none;
   }
+
+  .projects {
+    padding-left: 18%;
+    padding-top: 40px;
+  }
+
+  .projectCard {
+    width: 80%;
+  }
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -123,7 +131,6 @@
   #firstLeft {
     width: 50%;
     float: left;
-    /* margin: auto; */
     padding-top: 20px;
   }
 
@@ -145,10 +152,8 @@
   }
 
   #panelFirst {
-    /* margin-top: 180px; */
     color: #2B262A;
     height: 100%;
-    /* margin-left: 25px; */
   }
 
   #panelFirst h1 {
@@ -165,7 +170,50 @@
     text-align: left;
     display: none;
   }
+
+  .projects {
+    padding-left: 0;
+    padding-top: 40px;
+  }
+
+  .projects {
+    width: 50%;
+  }
+
+  .projectCard {
+    width: 75%;
+    margin-left: 12.50%;
+  }
+
+  #Viasat {
+    float: left;
+  }
+
+  #pod {
+    float: right;
+  }
+
+  #weather {
+    float: left;
+    clear: left;
+  }
+
+  #homies {
+    float: right;
+    clear: right;
+  }
+
+  #calc {
+    float: left;
+    clear: left;
+  }
+
+  #Avalon {
+    float: right;
+    clear: right;
+  }
 }
+
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
@@ -222,6 +270,48 @@
     font-size: 55px;
     text-align: left;
     display: none;
+  }
+
+  .projects {
+    padding-left: 0;
+    padding-top: 40px;
+  }
+
+  .projects {
+    width: 50%;
+  }
+
+  .projectCard {
+    width: 75%;
+    margin-left: 12.50%;
+  }
+
+  #Viasat {
+    float: left;
+  }
+
+  #pod {
+    float: right;
+  }
+
+  #weather {
+    float: left;
+    clear: left;
+  }
+
+  #homies {
+    float: right;
+    clear: right;
+  }
+
+  #calc {
+    float: left;
+    clear: left;
+  }
+
+  #Avalon {
+    float: right;
+    clear: right;
   }
 }
 
@@ -280,60 +370,51 @@
     text-align: left;
     display: none;
   }
+
+  .projects {
+    padding-left: 0;
+    padding-top: 40px;
+  }
+
+  .projects {
+    width: 33.33333%;
+    height: 70%;
+  }
+
+  .projectCard {
+    width: 75%;
+    margin-left: 12.50%;
+    margin-top: 7%;
+  }
+
+  #Viasat {
+    float: left;
+  }
+
+  #pod {
+    float: left;
+  }
+
+  #weather {
+    float: left;
+    clear: right;
+  }
+
+  #homies {
+    float: left;
+  }
+
+  #calc {
+    float: left;
+    clear: right;
+  }
+
+  #Avalon {
+    float: left;
+  }
+
 }
 
-
-
-/* body { margin: 0px;}
-
-#first, html, main, body {
-  height: 100%;
-}
-
-#first {
-  background-color: #E6E1FC;
-}
-
-#firstLeft {
-  width: 50%;
-  float: left;
-}
-
-#profile {
-  display: none;
-  margin-left: 220px;
-  margin-top: 125px;
-  width: 60%;
-  height: 60%;
-  border-radius: 50%;
-  /* border: 4px solid #2B262A; */
-/* }
-
-#firstRight {
-  float: right;
-  width: 50%;
-}
-
-#panelFirst {
-  margin-top: 180px;
-  color: #2B262A;
-  height: 100%;
-  margin-right: 220px;
-}
-
-#panelFirst h1 {
-  font-family: sans-serif;
-  font-size: 80px;
-  text-align: center;
-  display: none;
-}
-
-#panelFirst h2 {
-  font-family: sans-serif;
-  font-size: 50px;
-  text-align: center;
-  display: none;
-} */
 
 
 
