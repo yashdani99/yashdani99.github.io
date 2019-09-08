@@ -3,7 +3,7 @@
   body { margin: 0px;}
 
   #first, #second, html, main, body {
-    height: 100%;
+    height: 95%;
   }
 
   #first {
@@ -26,10 +26,10 @@
     border-radius: 50%;
   }
 
-  #firstRight {
-    /* float: right; */
-    /* width: 50%; */
-  }
+  /* #firstRight {
+    float: right;
+    width: 50%;
+  } */
 
   #panelFirst {
     /* margin-top: 180px; */
@@ -54,10 +54,60 @@
 
   .projects {
     margin-left: 12.5%;
-    padding-top: 40px;
     width: 75%;
   }
 
+  #projectsHead {
+    font-size: 35px;
+    text-align: center;
+    /* padding-top: 10px; */
+  }
+
+  .intro {
+    display: none;
+  }
+
+  #raas {
+    float: left;
+  }
+
+  #code {
+    float: left;
+    clear: right;
+  }
+
+  #codeTop {
+    width: 90%;
+    height: 90%;
+    margin-left: 5%;
+    display: block;
+  }
+
+  #adventure {
+    float: left;
+  }
+
+  #Iam {
+    font-weight: bold;
+  }
+
+  #aboutHead {
+    text-align: center;
+    font-size: 35px;
+  }
+
+  #second {
+    height: 150%;
+  }
+
+  #parallax {
+    background-image: url("sunset.jpeg");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 
 
@@ -66,7 +116,7 @@
   body { margin: 0px;}
 
   #first, html, main, body {
-    height: 110%;
+    height: 97%;
   }
 
   #first {
@@ -81,8 +131,8 @@
     display: none;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
-    height: 60%;
+    width: 55%;
+    height: 55%;
     border-radius: 50%;
   }
 
@@ -93,27 +143,79 @@
 
   #panelFirst h1 {
     font-family: sans-serif;
-    font-size: 80px;
+    font-size: 70px;
     text-align: center;
     display: none;
   }
 
   #panelFirst h2 {
     font-family: sans-serif;
-    font-size: 55px;
+    font-size: 45px;
     text-align: center;
     display: none;
   }
 
   .projects {
     padding-left: 18%;
-    padding-top: 40px;
+    /* padding-top: 40px; */
   }
 
   .projectCard {
     width: 80%;
   }
 
+  #projectsHead {
+    font-size: 45px;
+    text-align: center;
+  }
+
+  .intro {
+    display: none;
+    /* width: 516px;
+    height: 400px; */
+  }
+
+  #raas {
+    float: left;
+  }
+
+  #code {
+    float: left;
+    clear: right;
+  }
+
+  #codeTop {
+    width: 100%;
+    height: 100%;
+    margin-left: 12%;
+    display: block;
+  }
+
+  #adventure {
+    float: left;
+  }
+
+  #Iam {
+    font-weight: bold;
+  }
+
+  #aboutHead {
+    text-align: center;
+    font-size: 45px;
+  }
+
+  #second {
+    height: 150%;
+  }
+
+  #parallax {
+    background-image: url("sunset.jpeg");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -121,7 +223,7 @@
   body { margin: 0px;}
 
   #first, html, main, body {
-    height: 100%;
+    height: 95%;
   }
 
   #first {
@@ -173,7 +275,7 @@
 
   .projects {
     padding-left: 0;
-    padding-top: 40px;
+    padding-top: 5px;
   }
 
   .projects {
@@ -212,6 +314,56 @@
     float: right;
     clear: right;
   }
+
+  #projectsHead {
+    font-size: 45px;
+    text-align: center;
+  }
+
+  .intro {
+    display: block;
+    height: 200px;
+  }
+
+  #raas {
+    float: left;
+  }
+
+  #code {
+    float: left;
+    clear: right;
+  }
+
+  #codeTop {
+    display: none;
+  }
+
+  #adventure {
+    float: none;
+    margin-left: 26%;
+  }
+
+  #Iam {
+    font-weight: bold;
+  }
+
+  #aboutHead {
+    text-align: center;
+    font-size: 45px;
+  }
+
+  #second {
+    height: 150%;
+  }
+
+  #parallax {
+    background-image: url("sunset.jpeg");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 
 
@@ -220,7 +372,7 @@
   body { margin: 0px;}
 
   #first, html, main, body {
-    height: 100%;
+    height: 95%;
   }
 
   #first {
@@ -274,7 +426,7 @@
 
   .projects {
     padding-left: 0;
-    padding-top: 40px;
+    padding-top: 7px;
   }
 
   .projects {
@@ -313,6 +465,61 @@
     float: right;
     clear: right;
   }
+
+  #projectsHead {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  #projectsHead {
+    font-size: 45px;
+    text-align: center;
+  }
+
+  .intro {
+    display: block;
+    height: 225px;
+  }
+
+  #raas {
+    float: left;
+  }
+
+  #code {
+    float: left;
+    clear: right;
+  }
+
+  #codeTop {
+    display: none;
+  }
+
+  #adventure {
+    float: none;
+    margin-left: 26%;
+  }
+
+  #Iam {
+    font-weight: bold;
+  }
+
+  #aboutHead {
+    text-align: center;
+    font-size: 45px;
+  }
+
+  #second {
+    height: 150%;
+  }
+
+  #parallax {
+    background-image: url("sunset.jpeg");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -320,7 +527,7 @@
   body { margin: 0px;}
 
   #first, html, main, body {
-    height: 100%;
+    height: 95%;
   }
 
   #first {
@@ -371,9 +578,13 @@
     display: none;
   }
 
+  #second {
+    height: 100%;
+  }
+
   .projects {
     padding-left: 0;
-    padding-top: 40px;
+    padding-top: 7px;
   }
 
   .projects {
@@ -384,7 +595,7 @@
   .projectCard {
     width: 75%;
     margin-left: 12.50%;
-    margin-top: 7%;
+    /* margin-top: 3%; */
   }
 
   #Viasat {
@@ -411,6 +622,51 @@
 
   #Avalon {
     float: left;
+  }
+
+  #projectsHead {
+    font-size: 56px;
+    text-align: center;
+  }
+
+  .intro {
+    height: 200px;
+  }
+
+  #raas {
+    float: left;
+  }
+
+  #code {
+    float: left;
+    clear: right;
+  }
+
+  #codeTop {
+    display: none;
+  }
+
+  #adventure {
+    float: left;
+    margin-left: 0px;
+  }
+
+  #Iam {
+    font-weight: bold;
+  }
+
+  #aboutHead {
+    text-align: center;
+    font-size: 56px;
+  }
+
+  #parallax {
+    background-image: url("sunset.jpeg");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
 }
