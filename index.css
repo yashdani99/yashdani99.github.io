@@ -494,7 +494,7 @@
 
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 851px) {
+@media only screen and (min-width: 768px) {
 
     body { 
         margin: 0px;
@@ -538,7 +538,7 @@
     }
 
     #headerText h1 {
-        margin-right: 65%;
+        margin-right: 60%;
         font-size: 20px;
     }
 
@@ -548,32 +548,30 @@
         font-size: 19px;
     }
   
-    
-    #ucd {
-        width: 6%;
-        height: 6%;
-        display: inline-block;
+    #adobe {
+        width: 5%;
+        height: 5%;
+    }
 
+    #ucd {
+        width: 7%;
+        height: 7%;
+        display: inline;
     }
-    
-    #codeLogo {
+
+    #kings {
         width: 5%;
         height: 5%;
-        border-radius: 50%;
-        display: inline-block;
     }
-    
-    #sports {
+
+    #chess {
         width: 5%;
         height: 5%;
-        border-radius: 50%;
-        display: inline-block;
     }
-    
-    #games {
-        width: 4%;
-        height: 4%;
-        display: inline-block;
+
+    #tree {
+        width: 5%;
+        height: 5%;
     }
     
     #jobSearch {
@@ -768,6 +766,7 @@
     }   
 }
 
+
 /* Large devices (laptops/desktops, 1000px and up) */
 @media only screen and (min-width: 1000px) {
 
@@ -804,7 +803,7 @@
     
     #headerTextContainer h1 {
         font-size: 35px;
-        margin-right: 10%;
+        margin-right: 30%;
     }
     
     #headerText {
@@ -814,7 +813,7 @@
 
     #headerText h1 {
         font-size: 27px;
-        margin-right: 50%;
+        margin-right: 55%;
     }
 
     #headerText ul {
@@ -823,26 +822,29 @@
         margin-left: 15%;
     }
     
+    #adobe {
+        width: 5%;
+        height: 5%;
+    }
+
     #ucd {
-        width: 6%;
-        height: 6%;
+        width: 7%;
+        height: 7%;
     }
-    
-    #codeLogo {
+
+    #kings {
         width: 5%;
         height: 5%;
-        border-radius: 50%;
     }
-    
-    #sports {
+
+    #chess {
         width: 5%;
         height: 5%;
-        border-radius: 50%;
     }
-    
-    #games {
-        width: 4%;
-        height: 4%;
+
+    #tree {
+        width: 5%;
+        height: 5%;
     }
     
     #jobSearch {
@@ -1041,7 +1043,6 @@
 }
 
 
-
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 
@@ -1054,7 +1055,7 @@
         height: 100%;
         background-color: #eae9e6;
         overflow: auto;
-        padding-top: 10%;
+        padding-top: 5%;
     }
 
     #profile {
@@ -1078,7 +1079,7 @@
 
     #headerTextContainer h1 {
         font-size: 40px;
-        margin-right: 15%;
+        margin-right: 30%;
     }
 
     #headerText {
@@ -1088,31 +1089,568 @@
 
     #headerText h1 {
         font-size: 35px;
-        margin-right: 50%;
+        margin-right: 60%;
     }
 
     #headerText ul {
         font-size: 25px;
     }
 
+    #adobe {
+        width: 4%;
+        height: 4%;
+    }
+
     #ucd {
-        width: 6%;
-        height: 6%;
-    }
-
-    #codeLogo {
         width: 5%;
         height: 5%;
-        border-radius: 50%;
     }
 
-    #sports {
+    #kings {
+        width: 4%;
+        height: 4%;
+    }
+
+    #chess {
+        width: 4%;
+        height: 4%;
+    }
+
+    #tree {
+        width: 4%;
+        height: 4%;
+    }
+
+    #jobSearch {
+        font-weight: bold;
+    }
+
+    .sectionHead {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    #about {
+        overflow: auto;
+        margin-bottom: 5%;
+    }
+
+    #aboutContentContainer {
+        margin-top: 5%;
+    }
+
+    #aboutCodeImage {
+        float: left;
+        width: 50%;
+    }
+
+    #aboutCodeTextContainer {
+        float: right;
+        width: 50%;
+    }
+
+    #aboutCodeText {
+        margin-right: 10%;
+        font-size: 24px;
+        line-height: 1.5;
+    }
+
+    #code {
+        margin-left: 10%;
+        width: 75%;
+        height: 75%;
+    }
+
+    #parallax {
+        background-image: url("images/sunset.jpeg");
+        min-height: 500px; 
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .bold {
+        font-weight: bold;
+    }
+
+
+    #techExperience {
+        overflow: auto;
+        margin-bottom: 5%;
+    }
+
+    #nontechExperience {
+        overflow: auto;
+        margin-bottom: 5%;
+        background-color: #F5F5F5;
+    }
+
+    #maximus {
+        margin-left: 10%;
+        width: 85%;
+        height: 85%;
+    }
+
+    #viasat {
+        margin-left: 10%;
+        width: 85%;
+        height: 85%;
+    }
+
+    #iet {
+        margin-right: 10%;
+        width: 85%;
+        height: 85%;
+    }
+
+    #dfkdc {
+        margin-right: 10%;
+        width: 85%;
+        height: 85%;
+    }
+
+    #raas {
+        margin-left: 10%;
+        width: 85%;
+        height: 85%;
+    }
+
+    #insomnia {
+        margin-left: 10%;
+        margin-bottom: 10%;
+        width: 60%;
+        height: 60%;
+    }
+
+    #insomniaImage {
+        float: right;
+        width: 50%;
+    }
+
+    #oddContentContainer {
+        margin-top: 0%;
+        overflow: auto;
+        margin-bottom: 3%;
+    }
+
+    #oddImage {
+        float: left;
+        width: 50%;
+    }
+
+    #oddTextContainer {
+        float: right;
+        width: 50%;
+    }
+
+    #oddText {
+        margin-right: 10%;
+        font-size: 24px;
+        line-height: 1.5;
+    }
+
+    #evenContentContainer {
+        margin-top: 0%;
+        margin-bottom: 3%;
+        overflow: auto;
+    }
+
+    #evenImage {
+        float: right;
+        width: 50%;
+    }
+
+    #evenTextContainer {
+        float: left;
+        width: 50%;
+    }
+
+    #evenText {
+        margin-left: 10%;
+        margin-right: 15%;
+        font-size: 24px;
+        line-height: 1.5;
+    }
+
+    #actionAll {
+        margin-bottom: 5%;
+    }
+        
+    #actionContentContainer {
+        margin-top: 5%;
+        overflow: auto;
+    }
+
+    #actionImage {
+        float: left;
+        width: 50%;
+    }
+
+    #actionTextContainer {
+        float: right;
+        width: 50%;
+        margin: 0%;
+    }
+
+    #actionText {
+        margin-right: 10%;
+        font-size: 28px;
+        line-height: 1.5;
+    }
+    
+    #action {
+        width: 60%;
+        height: 60%;
+        border-radius: 50%;
+        margin-left: 20%;
+        margin-bottom: 5%;
+        margin-top: 7%;
+    }   
+}
+
+
+/* Extra extra large devices (large laptops and desktops, 1400px and up) */
+@media only screen and (min-width: 1400px) {
+
+    body { 
+        margin: 0px;
+        font-family: sans-serif;
+    }
+
+    #header {
+        height: 100%;
+        background-color: #eae9e6;
+        overflow: auto;
+        padding-top: 5%;
+    }
+
+    #profile {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        height: 80%;
+        border-radius: 50%;
+        margin-left: 10%;
+    }
+
+    #profileContainer {
+        float: left;
+        width: 45%; 
+    }
+
+    #headerTextContainer {
+        float: right;
+        width: 55%;
+    }
+
+    #headerTextContainer h1 {
+        font-size: 45px;
+        margin-right: 35%;
+    }
+
+    #headerText {
+        margin-right: 20%;
+        margin-bottom: 10%;
+    }
+
+    #headerText h1 {
+        font-size: 35px;
+        margin-right: 65%;
+    }
+
+    #headerText ul {
+        font-size: 25px;
+    }
+
+    #adobe {
+        width: 4%;
+        height: 4%;
+    }
+
+    #ucd {
         width: 5%;
         height: 5%;
-        border-radius: 50%;
     }
 
-    #games {
+    #kings {
+        width: 4%;
+        height: 4%;
+    }
+
+    #chess {
+        width: 4%;
+        height: 4%;
+    }
+
+    #tree {
+        width: 4%;
+        height: 4%;
+    }
+
+    #jobSearch {
+        font-weight: bold;
+    }
+
+    .sectionHead {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    #about {
+        overflow: auto;
+        margin-bottom: 5%;
+    }
+
+    #aboutContentContainer {
+        margin-top: 5%;
+    }
+
+    #aboutCodeImage {
+        float: left;
+        width: 50%;
+    }
+
+    #aboutCodeTextContainer {
+        float: right;
+        width: 50%;
+    }
+
+    #aboutCodeText {
+        margin-right: 10%;
+        font-size: 24px;
+        line-height: 1.5;
+    }
+
+    #code {
+        margin-left: 10%;
+        width: 75%;
+        height: 75%;
+    }
+
+    #parallax {
+        background-image: url("images/sunset.jpeg");
+        min-height: 500px; 
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .bold {
+        font-weight: bold;
+    }
+
+
+    #techExperience {
+        overflow: auto;
+        margin-bottom: 5%;
+    }
+
+    #nontechExperience {
+        overflow: auto;
+        margin-bottom: 5%;
+        background-color: #F5F5F5;
+    }
+
+    #maximus {
+        margin-left: 10%;
+        width: 85%;
+        height: 85%;
+    }
+
+    #viasat {
+        margin-left: 10%;
+        width: 85%;
+        height: 85%;
+    }
+
+    #iet {
+        margin-right: 10%;
+        width: 85%;
+        height: 85%;
+    }
+
+    #dfkdc {
+        margin-right: 10%;
+        width: 85%;
+        height: 85%;
+    }
+
+    #raas {
+        margin-left: 10%;
+        width: 85%;
+        height: 85%;
+    }
+
+    #insomnia {
+        margin-left: 10%;
+        margin-bottom: 10%;
+        width: 60%;
+        height: 60%;
+    }
+
+    #insomniaImage {
+        float: right;
+        width: 50%;
+    }
+
+    #oddContentContainer {
+        margin-top: 0%;
+        overflow: auto;
+        margin-bottom: 3%;
+    }
+
+    #oddImage {
+        float: left;
+        width: 50%;
+    }
+
+    #oddTextContainer {
+        float: right;
+        width: 50%;
+    }
+
+    #oddText {
+        margin-right: 10%;
+        font-size: 24px;
+        line-height: 1.5;
+    }
+
+    #evenContentContainer {
+        margin-top: 0%;
+        margin-bottom: 3%;
+        overflow: auto;
+    }
+
+    #evenImage {
+        float: right;
+        width: 50%;
+    }
+
+    #evenTextContainer {
+        float: left;
+        width: 50%;
+    }
+
+    #evenText {
+        margin-left: 10%;
+        margin-right: 15%;
+        font-size: 24px;
+        line-height: 1.5;
+    }
+
+    #actionAll {
+        margin-bottom: 5%;
+    }
+        
+    #actionContentContainer {
+        margin-top: 5%;
+        overflow: auto;
+    }
+
+    #actionImage {
+        float: left;
+        width: 50%;
+    }
+
+    #actionTextContainer {
+        float: right;
+        width: 50%;
+        margin: 0%;
+    }
+
+    #actionText {
+        margin-right: 10%;
+        font-size: 28px;
+        line-height: 1.5;
+    }
+    
+    #action {
+        width: 60%;
+        height: 60%;
+        border-radius: 50%;
+        margin-left: 20%;
+        margin-bottom: 5%;
+        margin-top: 7%;
+    }   
+}
+
+
+/* Extra extra extra large devices (large laptops and desktops, 1800px and up) */
+@media only screen and (min-width: 1800px) {
+
+    body { 
+        margin: 0px;
+        font-family: sans-serif;
+    }
+
+    #header {
+        height: 100%;
+        background-color: #eae9e6;
+        overflow: auto;
+        padding-top: 5%;
+    }
+
+    #profile {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        height: 80%;
+        border-radius: 50%;
+        margin-left: 10%;
+    }
+
+    #profileContainer {
+        float: left;
+        width: 45%; 
+    }
+
+    #headerTextContainer {
+        float: right;
+        width: 55%;
+    }
+
+    #headerTextContainer h1 {
+        font-size: 50px;
+        margin-right: 40%;
+    }
+
+    #headerText {
+        margin-right: 20%;
+        margin-bottom: 10%;
+    }
+
+    #headerText h1 {
+        font-size: 40px;
+        margin-right: 65%;
+    }
+
+    #headerText ul {
+        font-size: 30px;
+    }
+
+    #adobe {
+        width: 4%;
+        height: 4%;
+    }
+
+    #ucd {
+        width: 5%;
+        height: 5%;
+    }
+
+    #kings {
+        width: 4%;
+        height: 4%;
+    }
+
+    #chess {
+        width: 4%;
+        height: 4%;
+    }
+
+    #tree {
         width: 4%;
         height: 4%;
     }
