@@ -1704,6 +1704,10 @@
         line-height: 1.5;
     }
 
+    #extraAbout {
+        display: inline;
+    }
+
     #code {
         margin-left: 10%;
         width: 75%;
