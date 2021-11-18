@@ -869,6 +869,7 @@
         float: left;
         width: 50%;
         display: block;
+        margin-top: 1%;
     }
     
     #aboutCodeTextContainer {
@@ -880,6 +881,10 @@
         margin-right: 10%;
         font-size: 20px;
         line-height: 1.5;
+    }
+
+    #extraAbout {
+        display: none;
     }
     
     #code {
@@ -1142,6 +1147,7 @@
     #aboutCodeImage {
         float: left;
         width: 50%;
+        margin-top: 1%;
     }
 
     #aboutCodeTextContainer {
@@ -1153,6 +1159,10 @@
         margin-right: 10%;
         font-size: 24px;
         line-height: 1.5;
+    }
+
+    #extraAbout {
+        display: none;
     }
 
     #code {
@@ -1409,6 +1419,7 @@
     #aboutCodeImage {
         float: left;
         width: 50%;
+        margin-top: 1%;
     }
 
     #aboutCodeTextContainer {
@@ -1420,6 +1431,10 @@
         margin-right: 10%;
         font-size: 24px;
         line-height: 1.5;
+    }
+
+    #extraAbout {
+        display: none;
     }
 
     #code {
